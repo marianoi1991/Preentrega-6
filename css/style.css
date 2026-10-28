@@ -13,19 +13,19 @@ a, button, .menu-enlace-bs, .btn-acento, .tarjeta-proyecto-bs {
 /* fuenstes */
 @font-face {
     font-family: 'Poppins';
-    src: url('../Fuentes/Poppins-Regular.ttf') format('truetype');
+    src: url('../fuentes/Poppins-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
-    src: url('../Fuentes/Poppins-SemiBold.ttf') format('truetype');
+    src: url('../fuentes/Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
-    src: url('../Fuentes/Poppins-Bold.ttf') format('truetype');
+    src: url('../fuentes/Poppins-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -45,6 +45,13 @@ body {
     color: var(--color-secundario);
     background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%);
     min-height: 100vh;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; 
+    margin: 0;           
+    padding: 0;
 }
 
 /* personalizacion de navbar */

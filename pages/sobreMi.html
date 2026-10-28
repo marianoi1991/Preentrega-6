@@ -13,7 +13,6 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg cabecera-bootstrap">
         <div class="container-fluid px-4">
-            <!-- vuelve al index saliendo de Pages -->
             <a class="navbar-brand" href="../index.html">
                 <img src="../imagenes/Logo-Mariano Ibarra.png" alt="Logo" class="imagen-logo-bootstrap">
             </a>
@@ -25,8 +24,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav gap-2">
                     <li class="nav-item"><a class="nav-link menu-enlace-bs" href="../index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link menu-enlace-bs" href="./sobreMi.html">Sobre mi</a></li>
-                    <li class="nav-item"><a class="nav-link menu-enlace-bs" href="./tecnologias.html">Tecnologias</a></li>
+                    <li class="nav-item"><a class="nav-link menu-enlace-bs active" href="./sobreMi.html">Sobre mi</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link menu-enlace-bs" href="./tecnologias.html">Tecnologias</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link menu-enlace-bs" href="./proyectos.html">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link menu-enlace-bs" href="./contacto.html">Contacto</a></li>
                 </ul>
@@ -34,26 +35,29 @@
         </div>
     </nav>
 
-
-    <main>
-        <h1>Sobre Mi</h1>
+    <main class="contenedor-principal">
+        <h1 class="tit-bienvenida">Sobre Mí</h1>
 
         <section class="tarjeta-contenido">
-            <h2 class="subtitulo-seccion">Perfil profesional y experiencia</h2>
-            <p class="texto-cuerpo">En este espacio te cuento un poco sobre mi recorrido profesional y mis experiencias
-                laborale</p>
-
-            <figure>
-                <img src="../imagenes/image-73.png" alt="Sobre Mi">
-            </figure>
+            <div class="area-presentacion">
+                <h2 class="subtitulo-seccion">Mi Trayectoria</h2>
+                <p class="texto-cuerpo-destacado">Soy un apasionado del desarrollo de software enfocado en crear código
+                    limpio y escalable.</p>
+            </div>
+            <div class="area-imagen">
+                <figure class="contenedor-imagen">
+                    <img src="../imagenes/image-73.png" alt="Sobre Mi">
+                </figure>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
-        <a href="https://www.linkedin.com/in/mariano-ibarra-349b1785/" target="_blank" rel="noopener noreferrer">Mi
-            Perfil de LinkedIn</a>
-        <a href="https://github.com/marianoi1991" target="_blank" rel="noopener noreferrer">Github personal</a>
+        <div class="enlaces-redes">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">Mi Perfil de LinkedIn</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github personal</a>
+        </div>
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
